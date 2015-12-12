@@ -1,0 +1,16 @@
+{
+  "name": "javascript-pairing",
+  "version": "1.0.0",
+  "description": "Interview pairing exercises with more modern javascript tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive ./**/test/*",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
