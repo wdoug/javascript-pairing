@@ -1,5 +1,18 @@
 # Javascript Pairing Interview
 
+### Setup
+
+```
+git clone https://github.com/wbeard/javascript-pairing
+cd javascript-pairing
+npm i
+npm run test:watch
+```
+
+This will clone the repo, move you into the project directory, install the dependencies and start watching your code and running tests in the background.
+
+Choose from an exercise below to get started.
+
 ### Exercise 1
 Implement a Reverse Polish Notation Calculator.
 
