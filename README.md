@@ -3,7 +3,7 @@
 ### Setup
 
 ```
-git clone https://github.com/wbeard/javascript-pairing
+git clone https://github.com/rallysoftware/javascript-pairing
 cd javascript-pairing
 npm i
 npm run test:watch
