@@ -22,6 +22,5 @@ const builds = [{name: 'Build A', start: new Date(/* 20 minutes ago */), duratio
 {name: 'Build B', start: new Date(/* 15 minutes ago */), duration: 5, status: 'PASS'},
 {name: 'Build B', start: new Date(/* 20 minutes ago */), duration: 5, status: 'FAIL'}]
 
-// This example went green 14 minutes and 55 seconds ago because that's when the most recent build
-that turned the light green ended.
+// This example went green 14 minutes and 55 seconds ago because that's when the most recent build that turned the light green ended.
 ```
