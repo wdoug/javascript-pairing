@@ -11,7 +11,7 @@ npm run test:watch
 
 This will clone the repo, move you into the project directory, install the dependencies and start watching your code and running tests in the background.
 
-Choose from an exercise below to get started.
+### Exercises
 
 [Reverse Polish Notation Calculator](./src/reverse_polish_notation)
 
