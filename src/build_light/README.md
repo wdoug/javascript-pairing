@@ -8,7 +8,7 @@ should say so.
 * The build goes green when builds with all names are passing
 
 Example 1
-```
+```javascript
 const builds = [{name: 'Build A', start: new Date(/* 10 minutes ago */), duration: 5, status: 'PASS'},
 {name: 'Build B', start: new Date(/* 15 minutes ago */), duration: 5, status: 'FAIL'},
 {name: 'Build B', start: new Date(/* 20 minutes ago */), duration: 5, status: 'PASS'}]
@@ -17,7 +17,7 @@ const builds = [{name: 'Build A', start: new Date(/* 10 minutes ago */), duratio
 ```
 
 Example 2
-```
+```javascript
 const builds = [{name: 'Build A', start: new Date(/* 20 minutes ago */), duration: 5, status: 'PASS'},
 {name: 'Build B', start: new Date(/* 15 minutes ago */), duration: 5, status: 'PASS'},
 {name: 'Build B', start: new Date(/* 20 minutes ago */), duration: 5, status: 'FAIL'}]
