@@ -13,7 +13,7 @@ This will clone the repo, move you into the project directory, install the depen
 
 Choose from an exercise below to get started.
 
-[Reverse Polish Notation Calculator](./src/reverse_polish_notation_calculator)
+[Reverse Polish Notation Calculator](./src/reverse_polish_notation)
 
 [Build Light](./src/build_light)
 
