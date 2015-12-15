@@ -13,8 +13,8 @@ This will clone the repo, move you into the project directory, install the depen
 
 Choose from an exercise below to get started.
 
-[Reverse Polish Notation Calculator](./tree/master/src/reverse_polish_notation_calculator)
+[Reverse Polish Notation Calculator](./src/reverse_polish_notation_calculator)
 
-[Build Light](./tree/master/src/build_light)
+[Build Light](./src/build_light)
 
-[Game of Life](./tree/master/src/game_of_life)
+[Game of Life](./src/game_of_life)
