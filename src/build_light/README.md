@@ -5,7 +5,7 @@ that has passed since the build "went green". If the build is currently red, you
 should say so.
 
 * A build has a name, a start date/time, a duration in seconds, and a status (either 'PASS' or 'FAIL').
-* The build goes green when builds with all names are passing
+* The build goes green when each build's latest run is passing.
 
 Example 1
 ```javascript
@@ -24,3 +24,15 @@ const builds = [{name: 'Build A', start: new Date(/* 20 minutes ago */), duratio
 
 // This example went green 14 minutes and 55 seconds ago because that's when the most recent build that turned the light green ended.
 ```
+
+Bonuses:
+
+* Dependent builds. If Build A depends on Build B and has a `status` of `PASS`, it should be updated to have a `status` of `FAIL`.
+```javascript
+const builds = [{name: 'Build A', start: new Date(/* 10 minutes ago */), duration: 5, status: 'PASS', buildChildren: [ 'Build B' ]},
+{name: 'Build B', start: new Date(/* 15 minutes ago */), duration: 5, status: 'FAIL'},
+{name: 'Build B', start: new Date(/* 20 minutes ago */), duration: 5, status: 'PASS'}]
+
+// Build A should be marked as a FAIL
+```
+* Amount of time since last passed when status is FAIL or PASS.
