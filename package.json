@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "BABEL_ENV=dev node devServer.js",
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive ./**/test/*",
+    "test": "./node_modules/mocha/bin/mocha --require spec-helpers/chai.js --compilers js:babel-core/register --recursive ./src/**/test/*",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
