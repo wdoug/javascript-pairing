@@ -40,4 +40,4 @@ npm start
 open http://localhost:3000
 ```
 
-Changes should be picked up by the HMR & automatically be loaded intot he page. Sometimes a full refresh is necessary.
+Changes should be picked up by the HMR & automatically be loaded into the page. Sometimes a full refresh is necessary.
